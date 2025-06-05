@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+body{
+    width: 1296px;
+    margin: 0 auto;
+}
+.minicar-box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.mini-car{
+    width: 100%;
+}
+div h2 + img{
+    width: 100%;
+}
+.main-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.technical-box{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.technical-box div{
+    background-color: #FAFAFA;
+}

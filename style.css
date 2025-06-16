@@ -8,6 +8,30 @@ body{
     width: 1296px;
     margin: 0 auto;
 }
+.main-grid{
+    padding: 60px 72px;
+}
+.main-grid h1{
+    font-family: Work Sans, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+.price-car{
+    font-family: Work Sans, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: #5937E0;
+}
+.text-day{
+    font-size: 16px;
+    font-weight: 400;
+    color: #00000099;
+    opacity: 60%;
+}
+.second-column h2{
+    font-weight: 600;
+
+}
 .minicar-box{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -24,9 +48,39 @@ div h2 + img{
 }
 .technical-box{
     display: grid;
-    gap: 15px;
+    gap: 24px;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 40px;
 }
 .technical-box div{
     background-color: #FAFAFA;
+    display: grid;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 29px 24px;
 }
+.technical-box p{
+    opacity: 60%;
+}
+.rent-car{
+    border-radius: 12px;
+    background-color: #5937E0;
+    color: white;
+    padding: 15px 106px;
+    font-weight: 600;
+    border: none;
+    margin: 64px 0;
+}
+
+.check-car{
+    display: grid;
+    height: 24px;
+    width: 24px;
+    background-color: #5937E0;
+    border-radius: 50%;
+}
+.check-car::before{
+    content: '';
+    background: url("images/icon/check.svg") no-repeat center;
+}
+
